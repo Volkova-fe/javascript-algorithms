@@ -7,7 +7,7 @@
 */
 
 function capitalize(str) {
-    // Напишите код здесь
+    return str.replace(/(^|\s)\S/g, function (a) { return a.toUpperCase() });
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
